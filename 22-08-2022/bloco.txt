@@ -1,0 +1,24 @@
+//Primeiro criar variavel de controle com a entrada de valores
+
+let nomeDoLugar = "Instituto Federal Goiano"
+let numero = 0
+
+while(numero < nomeDoLugar.length){
+ console.log(nomeDoLugar[numero])
+ numero+=2
+}
+
+
+
+Em Java
+	String nome = "Henrique Gabriel";
+	
+		//System.out.println("A letra \"h\" está localizada na posição de indice " + nome.indexOf('H'));
+		int rodando = 0;
+
+		while(nome.indexOf(0) %2 == 0) {
+			rodando++;
+		
+
+		}
+		System.out.println("Mostre as posições pares" + nome.length());

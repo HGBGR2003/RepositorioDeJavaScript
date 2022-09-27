@@ -1,0 +1,29 @@
+8 - Multiplo de 3
+let numeroMulti = 7
+
+if(numeroMulti %3 == 0){
+  console.log("È multiplo de 3")
+}else{
+  console.log("Não é Multiplo")
+}
+
+
+9 - Resto da divisão de dois números
+let a = 10
+let b = 2
+
+if(a %b == 0){
+  console.log("DVISIVEL")
+}else{
+  console.log("NÃO DIVISIVEL")
+}
+
+10 - Maior ou Menor com dois valores
+let valorA = 10
+let valorB = 30
+
+console.log("O Maior é")
+console.log(Math.max(valorA,valorB))
+console.log("-------")
+console.log("O Menor é")
+console.log(Math.min(valorA,valorB))

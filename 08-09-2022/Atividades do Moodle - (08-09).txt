@@ -1,0 +1,23 @@
+Questão 1
+
+let comFome = true
+let terdinheiro = true
+
+if(comFome && terdinheiro ){
+  console.log("Compre no X-Coruja, o melhor hamburguer da região!")
+}else{
+  console.log("Não poderá comer vacilão!!!!!!!!!!!!!!!!!!!!!!!!!")
+}
+
+
+Questão 2
+
+let precoProduto1 = 1
+let precoProduto2 = 7
+let precoProduto3 = 100
+
+if (precoProduto1 < precoProduto3 && precoProduto2 < precoProduto3){
+   
+}else{
+  console.log("Não foi")
+}
