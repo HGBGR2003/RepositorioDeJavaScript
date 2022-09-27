@@ -26,5 +26,9 @@ for (let i = 0; i < count; i++){
         fDado[i]++
     }
 
+    for (let i = 0; i < 6 ; i++) {
+        console.log(fDado[i]/count)
+
+    }
 }
 
