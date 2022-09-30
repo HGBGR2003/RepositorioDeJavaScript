@@ -1,10 +1,10 @@
 function ValorX(x) {
     if (x > 0) {
-        console.log("P")
+        return console.log("P")
     } else {
-        console.log("N")
+        return console.log("N")
     }
 }
 
-let valorDeX = ValorX(-4)
+ValorX(8)
 
