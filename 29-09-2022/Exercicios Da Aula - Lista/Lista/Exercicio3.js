@@ -1,0 +1,3 @@
+function calculaImposto(taxa, custo) {
+    
+}
