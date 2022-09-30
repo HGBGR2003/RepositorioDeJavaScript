@@ -6,5 +6,5 @@ function ValorX(x) {
     }
 }
 
-let valorDeX = ValorX(10)
+let valorDeX = ValorX(-4)
 
