@@ -6,5 +6,4 @@ function mixUp(letra1 , letra2) {
     return concatena
 }
 
-let principalFuncao = mixUp('dog', 'dinner')
-console.log(principalFuncao)
+console.log(mixUp('dog', 'dinner'))
