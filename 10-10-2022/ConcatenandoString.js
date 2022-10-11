@@ -1,12 +1,10 @@
 function mixUp(letra1 , letra2) {
-    let concatenandoVariavel = letra1 + " " + letra2
-    let final1 = letra1.slice(2)
-    final1++
-    let final2 = letra2.slice(2)
-    final2++
-    return concatenandoVariavel
+    let concatena
+    let controleDoCorte1 = letra2.slice(0,2) + letra1.slice(2)
+    let controleDoCorte2 = letra1.slice(0,2) + letra2.slice(2)
+    concatena = controleDoCorte1 + " " + controleDoCorte2
+    return concatena
 }
 
-//Tentando Não sei, se vai dar certo
-let principalFuncao = mixUp('mix', 'pod')
+let principalFuncao = mixUp('dog', 'dinner')
 console.log(principalFuncao)

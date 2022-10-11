@@ -1,14 +1,5 @@
 Exercícios
 
-1. Crie uma função chamada mixUp. Ele deve receber duas strings e retornar a concatenação das duas strings (separadas por um espaço) 
-cortando e trocando os 2 primeiros caracteres de cada uma. Você pode assumir que as strings têm pelo menos 2 caracteres. Por exemplo:
-
-mixUp('mix', pod')
-Resultado: 'pox mid'
-
-mixUp('dog', 'dinner') 
-Resultado: 'dig donner'
-
 2. Crie uma função chamada fixStart. Ele deve receber um único argumento, uma string, e retornar uma versão em que todas as 
 ocorrências de seu primeiro caractere foram substituídas por '*', exceto o próprio primeiro caractere. 
 Você pode assumir que a string tem pelo menos um caractere. Por exemplo:
