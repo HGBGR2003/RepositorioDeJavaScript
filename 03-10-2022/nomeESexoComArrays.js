@@ -1,6 +1,7 @@
 let sexos = []
 let alturas = []
 
+//Função Para Gerar Valores.
 function GereOValorDaAltura(){
     const maxi = 1.4
     const mini = 2.2
@@ -38,3 +39,10 @@ for (let i = 0; i < numeroDeControle; i++) {
         sexoDaMaiorPessoa = sexos[i]
     }
 }
+
+console.log('Alturas', alturas)
+console.log('Sexos', sexos)
+
+console.log('Homens:' , contadorMasculino)
+console.log('Mulheres :', maiorAlturaDOIndividuo + " m")
+console.log('Sexo da maior pessoa :', sexoDaMaiorPessoa)
