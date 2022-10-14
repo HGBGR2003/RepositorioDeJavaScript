@@ -1,5 +1,5 @@
 let sexos = []
-let aluras = []
+let alturas = []
 
 function GereOValorDaAltura(){
     const maxi = 1.4
@@ -19,7 +19,22 @@ let numeroDeControle = 10
 
 for (let i = 0; i < numeroDeControle; i++) {
     //Usando os Vetores
-    aluras[i] = GereOValorDaAltura()
+    alturas[i] = GereOValorDaAltura()
     sexos[i] = GerandoValoresDeSexo()
+}
 
+let contadorMasculino = 0
+let contadorFemenino = 0
+let maiorAlturaDOIndividuo = 0
+let sexoDaMaiorPessoa = ''
+
+for (let i = 0; i < numeroDeControle; i++) {
+    if (sexos[i] === 'M') contadorMasculino++
+    else contadorFemenino++
+
+    //Ver se é maior Altura.
+    if (alturas[i] > maiorAlturaDOIndividuo){
+        maiorAlturaDOIndividuo = alturas[i]
+        sexoDaMaiorPessoa = sexos[i]
+    }
 }
