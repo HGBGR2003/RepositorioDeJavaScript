@@ -1,7 +1,7 @@
 let sexos = []
 let alturas = []
 
-//Função Para Gerar Valores.
+//Função Para Gerar Valores de Altura.
 function GereOValorDaAltura(){
     const maxi = 1.4
     const mini = 2.2
