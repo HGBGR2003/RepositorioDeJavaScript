@@ -1,8 +1,11 @@
-function calculaImposto(taxa, custo) {
-    let taxa1
-    taxa1 = taxa/100
-    return taxa1 + custo
+function calculaImposto(taxa, custo){
+    return custo * (1 + (taxa/100))
 }
-//Fiz, só não sei, se é o que o exercicio pediu de verdade.
+
+//Exercicio Devidamente Corrigido.
 let calculo = calculaImposto(50,20)
-console.log(calculo)
+console.log(calculo.toFixed(2))
+
+//Código Velho.
+/*let calculo = calculaImposto(50,20)
+console.log(calculo)*/
