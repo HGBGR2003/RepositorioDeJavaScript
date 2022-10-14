@@ -10,4 +10,5 @@ function ValorX(x) {
 }
 
 ValorX(8)
-
+ValorX(-1)
+ValorX(0)
