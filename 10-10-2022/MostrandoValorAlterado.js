@@ -1,10 +1,8 @@
 function fixStart(valor1) {
-    let valorAlterado = valor1
-    valorAlterado.slice(0,2)
-    valorAlterado.slice(4)
-    let juntandoOsDois = valorAlterado.slice(0,2) + "**" + valorAlterado.slice(4)
-    console.log(juntandoOsDois)
-     
+    let valorAlterado = valor1.charAt(0)
+    return valorAlterado + valor1.slice(1).replace(new RegExp(valorAlterado,'g'),'*')
+    //+ Converte Números
 }
 
-let mostre = fixStart("babble")
+let mostrandoONovoValor = fixStart("babble")
+console.log(mostrandoONovoValor)
