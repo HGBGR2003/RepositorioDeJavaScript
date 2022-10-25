@@ -1,0 +1,4 @@
+//+ também pode converter em Number()
+//Math > 0.5 (PARA TODOS OS VALORES DO GERADOR SER IGUAL A AMBAS AS PARTES)
+//os códigos já estão no GitHub.
+//push - Coloca no vetor.
