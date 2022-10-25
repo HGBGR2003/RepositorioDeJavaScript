@@ -6,6 +6,6 @@ function mixUp(letra1 , letra2) {
     return concatena
 }
 
-console.log(mixUp('dog', 'dinner'))
 //Colocando Mais um valor 
 //console.log(mixUp('mix', 'pod'))
+console.log(mixUp('dog', 'dinner'))
