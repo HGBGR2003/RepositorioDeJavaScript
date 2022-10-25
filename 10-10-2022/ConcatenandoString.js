@@ -7,3 +7,5 @@ function mixUp(letra1 , letra2) {
 }
 
 console.log(mixUp('dog', 'dinner'))
+//Colocando Mais um valor 
+//console.log(mixUp('mix', 'pod'))
