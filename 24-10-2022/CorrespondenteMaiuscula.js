@@ -1,3 +1,9 @@
 let fraseDigitada
 fraseDigitada = prompt("Informe uma Frase de até 3 palavras")
-console.log(fraseDigitada)
+fraseDigitada = fraseDigitada.split(' ')
+if ( fraseDigitada.length < 2){
+    console.log("Aceito")
+}else {
+    console.log("Não aceito")
+}
+
