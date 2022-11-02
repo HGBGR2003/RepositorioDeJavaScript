@@ -12,12 +12,12 @@ function ReceberData(dia,mes,ano) {
     let conversaoMilleSegudosEmDias = (1000 * 60 * 60 * 24)
     let diferencaEmDias = diferencaEmMilleSegundos / conversaoMilleSegudosEmDias
 
-    let diffMeses = diferencaEmDias / 30;
+    let diffMeses = diferencaEmDias / 30
     let anos = diferencaEmDias / 365
 
-    console.log("diferencaEmDias = ", parseInt(diferencaEmDias))
-    console.log("diffMeses = ", parseInt(diffMeses))
-    console.log("anos = ", parseInt(anos))
+    console.log("Diferença em Dias =", parseInt(diferencaEmDias.toFixed(2)))
+    console.log("Diferença em Meses =", parseInt(diffMeses.toFixed(2)))
+    console.log("Em anos = ", parseInt(anos.toFixed(2)))
 }
 
 ReceberData(1,3,2020)
