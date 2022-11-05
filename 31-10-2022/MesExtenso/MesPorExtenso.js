@@ -3,76 +3,80 @@ function ReceberMes(){
     let mesUsuario = prompt("Informe o nome do mês ?")
     let ano = Number((prompt("Informe um ano ?")))
 
+    //Usado o padrão de 0 á 11.
     switch (mesUsuario){
         case "janeiro":
             let digitMes =  0
-            let formatarDa = (dia + "/" + digitMes + "/" + ano)
-            console.log(formatarDa)
+            let formatarData = (dia + "/" + digitMes + "/" + ano)
+            console.log(formatarData)
             break
+
         case "fevereiro":
             let digitMes2 = 1
-            let dataAtual2 = new Date(ano,digitMes2,dia)
-            console.log(dataAtual2)
+            let formatarData2 = (dia + "/" + digitMes2 + "/" + ano)
+            console.log(formatarData2)
             break
+
         case "março":
             let digitMes3 = 2
-            let dataAtual3 = new Date(ano,digitMes3,dia)
-            console.log(dataAtual3)
+            let formatarData3 = (dia + "/" + digitMes3 + "/" + ano)
+            console.log(formatarData3)
             break
+
         case "abril":
             let digitMes4 = 3
-            let dataAtual4 = new Date(ano,digitMes4,dia)
-            console.log(dataAtual4)
+            let formatarData4 = (dia + "/" + digitMes4 + "/" + ano)
+            console.log(formatarData4)
             break
+
         case "maio":
             let digitMes5 = 4
-            let dataAtual5 = new Date(ano,digitMes5,dia)
-            console.log(dataAtual5)
+            let formatarData5 = (dia + "/" + digitMes5 + "/" + ano)
+            console.log(formatarData5)
             break
 
         case "junho":
             let digitMes6 = 5
-            let dataAtual6 = new Date(ano,digitMes6,dia)
-            console.log(dataAtual6)
+            let formatarData6 = (dia + "/" + digitMes6 + "/" + ano)
+            console.log(formatarData6)
             break
 
         case "julho":
             let digitMes7 = 6
-            let dataAtual7 = new Date(ano,digitMes7,dia)
-            console.log(dataAtual7)
+            let formatarData7 = (dia + "/" + digitMes7 + "/" + ano)
+            console.log(formatarData7)
             break
 
         case "agosto":
             let digitMes8 = 7
-            let dataAtual8 = new Date(ano,digitMes8,dia)
-            console.log(dataAtual8)
+            let formatarData8 = (dia + "/" + digitMes8 + "/" + ano)
+            console.log(formatarData8)
             break
+
         case "setembro":
             let digitMes9 = 8
-            let dataAtual9 = new Date(ano,digitMes9,dia)
-            console.log(dataAtual9)
+            let formatarData9 = (dia + "/" + digitMes9 + "/" + ano)
+            console.log(formatarData9)
             break
+
         case "outubro":
             let digitMes10 = 9
-            let dataAtual10 = new Date(ano,digitMes10,dia)
-            console.log(dataAtual10)
+            let formatarData10 = (dia + "/" + digitMes10 + "/" + ano)
+            console.log(formatarData10)
             break
+
         case "novembro":
             let digitMes11 = 10
-            let dataAtual11 = new Date(ano,digitMes11,dia)
-            console.log(dataAtual11)
+            let formatarData11 = (dia + "/" + digitMes11 + "/" + ano)
+            console.log(formatarData11)
             break
+
         case "dezembro":
             let digitMes12 = 11
-            let dataAtual12 = new Date(ano,digitMes12,dia)
-            console.log(dataAtual12)
+            let formatarData12 = (dia + "/" + digitMes12 + "/" + ano)
+            console.log(formatarData12)
             break
-
     }
-
-
-
-
 }
 
 ReceberMes()
