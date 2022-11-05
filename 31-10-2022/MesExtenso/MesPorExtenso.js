@@ -1,7 +1,7 @@
 function ReceberMes(){
-    let dia = (prompt("Informe um dia ?"))
+    let dia = Number((prompt("Informe um dia ?")))
     let mesUsuario = prompt("Informe o nome do mês ?")
-    let ano = (prompt("Informe um ano ?"))
+    let ano = Number((prompt("Informe um ano ?")))
 
     switch (mesUsuario){
         case "janeiro":
